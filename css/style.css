@@ -171,6 +171,11 @@ nav .logo {
   transition: transform 0.3s ease; /* Animação suave ao passar o mouse */
 }
 
+/* Scroll suave*/
+    html {
+      scroll-behavior: smooth;
+    }
+
 nav .logo:hover {
   transform: scale(1.5); /* Efeito de destaque ao passar o mouse */
 }
