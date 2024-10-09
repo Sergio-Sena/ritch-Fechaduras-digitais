@@ -149,7 +149,7 @@ body {
 
 .header_top {
   background-color: #1c1c1c;
-  padding: 15px 0;
+  padding: 10px 0;
 }
 
 .header_top .contact_link-container {
@@ -188,6 +188,8 @@ body {
     animation: pulse 0.5s infinite; /* Acelera a animação ao passar o mouse */
 }
 
+
+
 /* Scroll suave*/
     html {
       scroll-behavior: smooth;
@@ -212,9 +214,15 @@ body {
 }
 
 .header_top .contact_link-container a i {
-  font-size: 20px;
-  color: #0c95e5;
-  margin-right: 5px;
+  font-size: 34px;
+  color: #25D366;
+  margin-right: 25px;
+}
+
+.header_top .contact_link-container a i.fa-envelope:before{
+  font-size: 34px;
+  color: #4267B2;
+  margin-right: 0;
 }
 
 #navbarSupportedContent {
@@ -500,7 +508,7 @@ a:focus {
 
 .about_section .img-box img {
   width: 100%;
-  height: 833px;
+  height: 796px;
   object-fit:fill; /* Ajusta a imagem para cobrir o espaço */
   margin: 0%;
 }
@@ -541,6 +549,48 @@ a:focus {
   border-color: #0c95e5;
   color: #0c95e5;
 }
+
+.product-box {
+  text-align: center;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.img-box img {
+  max-width: 100%;
+  height: auto;
+}
+
+.detail-box p {
+  margin: 10px 0;
+}
+
+/* Centraliza o valor e o botão */
+.product-price {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.btn-primary {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
 
 .service_section {
   background-color: #1c1c1c;
@@ -866,7 +916,8 @@ a:focus {
 .info_section {
   background-color: #101010;
   color: #ffffff;
-  padding: 75px 0 10px 0;
+  padding: 75px 0 3px 0;
+  margin: 0;
 }
 
 .info_section .row > div {
@@ -963,7 +1014,7 @@ a:focus {
 .info_section .info_form .social_box a {
   margin-right: 10px;
   color: #ffffff;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 /* footer section*/
@@ -977,6 +1028,17 @@ a:focus {
           justify-content: center;
   padding: 20px;
   background-color: #101010;
+}
+
+/* Estilo da logo */
+.logo_footer {
+  max-height: 100%; /* Aumenta a altura máxima da logo */
+  max-width: 100%;
+  height: 50%;
+  width: 50%;
+  margin-right: 90px;
+  object-fit: contain;
+  
 }
 
 .footer_section p {
