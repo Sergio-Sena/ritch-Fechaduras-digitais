@@ -165,11 +165,12 @@ body {
 .logo {
   max-height: 100%; /* Aumenta a altura máxima da logo */
   max-width: 100%;
-  height: 50%;
-  width: 50%;
+  height: 55%;
+  width: 55%;
   margin-right: 20px;
   object-fit: contain;
   animation: pulse 1s infinite; /* Animação de pulsação */
+  margin-bottom: 0;
 }
 
 @keyframes pulse {
@@ -914,7 +915,7 @@ a:focus {
 }
 
 .info_section {
-  background-color: #1d1d1d;
+  background-color:#e1e1e1;
   color: #ffffff;
   padding: 0px 0 0px 0;
   margin: 0;
@@ -927,6 +928,8 @@ a:focus {
 .info_section h5 {
   margin-bottom: 25px;
   font-size: 24px;
+  color: #000000;
+  font-family: sans-serif;
 }
 
 .info_section .info_logo {
@@ -948,8 +951,8 @@ a:focus {
 }
 
 .info_section .info_logo .navbar-brand span {
-  font-size: 24px;
-  color: #ffffff;
+  font-size: 35px;
+  color: #007bff;
 }
 
 .info_section .info_links ul {
@@ -982,6 +985,7 @@ a:focus {
 .info_section .info_contact a i {
   font-size: 20px;
   margin-right: 5px;
+  color: #007bff;
 }
 
 .info_section .info_form form input {
@@ -1011,10 +1015,16 @@ a:focus {
   display: flex;
 }
 
+
+
 .info_section .info_form .social_box a {
   margin-right: 10px;
   color: #ffffff;
   font-size: 25px;
+}
+
+.info_section .social_box{
+  color: #000000 !important;
 }
 
 /* footer section*/
