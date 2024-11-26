@@ -383,6 +383,7 @@ a:focus {
       -ms-flex-align: center;
           align-items: center;
           
+          
 }
 
 .flex-container {
@@ -448,6 +449,19 @@ a:focus {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   border: 1px solid transparent;
+}
+
+
+.detail-box ul {
+  list-style-type: disc; /* Exibe bullets (discos) */
+  padding-left: 20px; /* Ajusta a distância da margem esquerda */
+  margin: 0; /* Remove margens superiores e inferiores */
+  text-align: left; /* Alinha o texto à esquerda */
+}
+
+.detail-box ul li {
+  margin-bottom: 5px; /* Espaçamento entre os itens */
+  white-space: nowrap; /* Garante que o texto de cada item fique em uma linha */
 }
 
 .slider_section .detail-box .btn-box .btn-2:hover {
@@ -525,7 +539,14 @@ a:focus {
 }
 
 .detail-box {
+  display: inline;
   padding: 20px;
+  list-style-type: disc;
+  padding: 0; 
+  margin: 0;
+  gap: 10px;
+
+  
 }
 
 .heading_container h2 {

@@ -595,6 +595,9 @@ pre code {
   margin-left: -15px;
   justify-content: center;
   align-items: center;
+  grid-template-columns: repeat(4, 1fr); /* 4 colunas para os primeiros itens */
+  gap: 20px; /* Espaçamento entre os itens */
+
   
 }
 
